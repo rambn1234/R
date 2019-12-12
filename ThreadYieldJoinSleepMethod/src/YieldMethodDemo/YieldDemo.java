@@ -10,7 +10,7 @@ public class YieldDemo extends Thread {
 		for(int i=1;i<=10;i++)
 		{
 			Thread.yield();
-			System.out.println("yes="+i);
+			System.out.println("yes done="+i);
 		}
 	}
 
